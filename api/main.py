@@ -59,7 +59,7 @@ async def run_change_bio():
         print(f"Ошибка в run_change_bio: {e}")
 
 # Укажите время, когда нужно менять описание (в 24-часовом формате, например, '10:00')
-change_time = '16:40'  # Меняйте на желаемое время
+change_time = '17:26'  # Меняйте на желаемое время
 
 def schedule_change_bio():
     asyncio.create_task(run_change_bio())
@@ -86,4 +86,5 @@ async def main():
 if __name__ == '__main__':
     import asyncio
     asyncio.run(main())
+
 
